@@ -1,6 +1,6 @@
 {
-    "name": "wisata_pati",
-    "short_name": "wisata_pati",
+    "name": "wisata_solo",
+    "short_name": "wisata_solo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

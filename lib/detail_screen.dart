@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'model/tourism_place.dart';
 
+// ignore: must_be_immutable
 class DetailScreen extends StatelessWidget {
   final TourismPlace place;
   DetailScreen({Key? key, required this.place}) : super(key: key);
@@ -46,7 +47,7 @@ class DetailScreen extends StatelessWidget {
               child: Text(
                 place.name,
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 30.0,
                   fontFamily: 'Inter',
                 ),
@@ -95,7 +96,7 @@ class DetailScreen extends StatelessWidget {
               child: Text(
                 place.desription,
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 16.0),
+                style: const TextStyle(fontSize: 16.0),
               ),
             ),
             SizedBox(
